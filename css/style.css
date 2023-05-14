@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: skyblue;
+}
+
+.mainbox {
+    width: 80%;
+    height: 90vh;
+    margin: 50px auto;
+    background-color: white;
+}
+
+.mainbox header {
+    width: 100%;
+    height: 12%;
+    background-color: rgb(54, 52, 52);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainbox header .firstnav {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(54, 52, 52);
+}
+
+.mainbox header .firstnav ul {
+    background-color: rgb(54, 52, 52);
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainbox header .firstnav ul li {
+    padding-top: 30px;
+    background-color: rgb(54, 52, 52);
+    
+}
+
+.mainbox header .firstnav ul li a {
+    padding-top: 20px;
+    background-color: rgb(54, 52, 52);
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 17px;
+}
+
+.mainbox header .firsticon {
+    width: 15%;
+    height: 100%;
+    background-color: rgb(54, 52, 52);
+}
+
+.mainbox header .firsticon ul {
+    background-color: rgb(54, 52, 52);
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainbox header .firsticon ul li {
+    background-color: white;
+    margin-top: 30px;
+    margin-right: 10px;
+    border-radius: 50%;
+
+}
+
+.mainbox header .firsticon ul li i {
+    padding-top: 20px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 7px;
+    font-size: 13px;
+    width: 10px;
+    border-radius: 50%;
+
+}
+
+.mainbox section {
+    width: 100%;
+    height: 80%;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(236, 234, 230);
+}
+
+.mainbox section .secondbox {
+    width: 25%;
+    height: 90%;
+    border: 1px solid green;
+    background-color: rgb(54, 52, 52);
+    background-image: url(/edited.jpg);
+    background-repeat: initial;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+
+}
+
+.mainbox section .thirdbox {
+    width: 60%;
+    height: 80%;
+    background-color: rgb(236, 234, 230);
+    align-self: auto;
+
+
+}
+
+.mainbox section .thirdbox .thirdbox1 {
+    width: 100%;
+    height: 30%;
+    background-color: rgb(236, 234, 230);
+}
+
+.mainbox section .thirdbox .thirdbox1 .thirdbox1a {
+    width: 100%;
+    height: 20%;
+    background-color: rgb(236, 234, 230);
+}
+
+.mainbox section .thirdbox .thirdbox1 .thirdbox1b {
+    width: 100%;
+    height: 55%;
+    background-color: rgb(236, 234, 230);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainbox section .thirdbox .thirdbox1 .thirdbox1b h3 {
+    color: black;
+    background-color: rgb(236, 234, 230);
+    font-size: 20px;
+    font-style: normal;
+    /* padding-top: 10px; */
+
+}
+
+.mainbox section .thirdbox .thirdbox2 {
+    width: 100%;
+    height: 5%;
+    background-color: rgb(236, 234, 230);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.mainbox section .thirdbox .thirdbox3 {
+    width: 100%;
+    height: 10%;
+    background-color: rgb(236, 234, 230);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.mainbox section .thirdbox .thirdbox4 {
+    width: 100%;
+    height: 5%;
+    background-color: rgb(236, 234, 230);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainbox section .thirdbox .thirdbox2 h3 {
+    color: black;
+    background-color: rgb(236, 234, 230);
+    font-size: 20px;
+    font-style: normal;
+    /* padding-top: 10px; */
+}
+
+.mainbox section .thirdbox .thirdbox4 h3 {
+    color: black;
+    background-color: rgb(236, 234, 230);
+    font-size: 20px;
+    font-style: normal;
+}
+.mainbox section .thirdbox .thirdbox5 {
+    width: 30%;
+    height: 10%;
+    background-color: rgb(247, 143, 55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    margin-left: 250px;
+    border-radius: 10px;
+}
+
+.mainbox section .thirdbox .thirdbox5 a {
+    background-color: rgb(247, 143, 55);
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainbox section .thirdbox .thirdbox5 a:hover {
+    background-color: rgb(247, 143, 55);
+    color: white;
+    transition: 0.5s;
+    font-size: large;
+
+}.mainbox footer {
+    width: 100%;
+    height: 15%;
+    padding-top: 50px;
+    /* display: flex;
+    justify-content: space-evenly; */
+    background-color: rgb(2, 25, 38);
+}
+.mainbox footer .four{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(2, 25, 38);
+    
+}
+.mainbox footer .four1 {
+    width: 100%;
+    height: 5%;
+    background-color: rgb(2, 25, 38);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.mainbox footer .four1 h3 {
+    color: white;
+    background-color:rgb(2, 25, 38);
+    font-size: 20px;
+    font-style: normal;
+}
+.mainbox footer .four2 {
+    width: 30%;
+    height: 10%;
+    background-color: rgb(250, 143, 56);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    margin-left: 380px;
+    border-radius: 10px;
+    padding: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    
+
+}
+
+.mainbox footer .four2 a {
+    background-color: rgb(250, 143, 56);
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainbox footer .four2 a:hover {
+    background-color: rgb(250, 143, 56);
+    color: white;
+    transition: 0.5s;
+    font-size: large;
+}
